@@ -24,6 +24,18 @@ When the pipeline loads successfully, you should see the following sequence of p
 ## Knowledge Base
 The provided knowledge base contains all the extracted entities from our dataset of 100 computer science articles. The semantic triples are expressed using the Resource Description Framework (RDF) syntax.
 
+### Vocabularies
+The triples in our knowledge base use a number of (linked open) vocabularies:
+
+| Vocabulary/Ontology    | Namespace in KB | Description   | URL  |
+| ------------- |:-------------:|:-----|:-------------|
+| Publication Ontology (PUBO) | pubo | PUBO vocabularies are used to express the relations between documents, annotations and their inter-relations. | http://lod.semanticsoftware.info/pubo/pubo |
+| SALT Rhetorical Ontology (SALT) | sro | Used for describing rhetorical elements (claims and contributions) of documents. | http://salt.semanticauthoring.org/ontologies/sro   |
+| Resource Description Framework (RDF) | rdf | Formal representation of semantic triples. | http://www.w3.org/1999/02/22-rdf-syntax-ns |
+| RDF Schema (RDFS) | rdfs | Schema used in our knowledge base, as well as DBpedia ontology. | http://www.w3.org/2000/01/rdf-schema |
+| Content Ontology | cnt | Used for representing the literal (verbatim) content of extracted annotations.| http://www.w3.org/2011/content |
+| DBpedia Ontology | dbpedia | Used for grounding documents' topics with DBpedia ontology resources. | http://dbpedia.org/resoource/|
+
 ### Publishing the knowledge base through Fuseki
 The knowledge base can be published with [Apache Jena Fuseki](https://jena.apache.org/documentation/serving_data/) that can servce RDF data over HTTP. 
 
