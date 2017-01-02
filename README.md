@@ -1,7 +1,12 @@
-# Supplements-ESWC2017
-Supplementary materials for our submission to ESWC 2017
+# Supplementary Materials for our ESWC 2017 Submission
+This repository contains the supplementary materials used to reproduce the
+experiments submitted to the [14th Extended Semantic Web Conference (ESWC 2017)](http://2017.eswc-conferences.org).
 
 NB: This repository is in progress – Please check back later.
+
+#### Table of Contents
+1. [Dataset](#dataset)
+2. [GATE Pipeline](#gate-pipeline)
 
 ## Dataset
 The dataset used in our experiments are open access, computer science articles retrieved from [CORE](http://core.ac.uk) dataset [dump 2016](https://core.ac.uk/services#dataset).
