@@ -8,6 +8,8 @@ NB: This repository is in progress – Please check back later.
 1. [Dataset](#dataset)
 2. [GATE Pipeline](#gate-pipeline)
 3. [Knowledge Base](#knowledge-base)
+  1. [Publishing the Knowledge base](#publishing-the-knowledge-base-through-fuseki)
+  2. [License](#license)
 
 ## Dataset
 The dataset used in our experiments are open access, computer science articles retrieved from [CORE](http://core.ac.uk) dataset [dump 2016](https://core.ac.uk/services#dataset).
