@@ -24,7 +24,7 @@ When the pipeline loads successfully, you should see the following sequence of p
 
 ### License
 
-The text mining pipeline is distributed under the terms of the [GNU LGPL v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html). You can find a copy of the license in the [pipeline](../master/pipeline) folder.
+The text mining pipeline is distributed under the terms of the [GNU LGPL v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html). You can find a copy of the license in the [pipeline](../master/pipeline/gate) folder.
 
 ## Knowledge Base
 The provided knowledge base contains all the extracted entities from our dataset of 100 computer science articles. The semantic triples are expressed using the Resource Description Framework (RDF) syntax.
