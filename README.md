@@ -7,6 +7,7 @@ NB: This repository is in progress – Please check back later.
 #### Table of Contents
 1. [Dataset](#dataset)
 2. [GATE Pipeline](#gate-pipeline)
+  1. [License](#license)
 3. [Knowledge Base](#knowledge-base)
   1. [Vocabularies](#vocabularies)
   2. [Publishing the Knowledge base](#publishing-the-knowledge-base-through-fuseki)
