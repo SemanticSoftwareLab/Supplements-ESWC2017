@@ -7,6 +7,7 @@ NB: This repository is in progress – Please check back later.
 #### Table of Contents
 1. [Dataset](#dataset)
 2. [GATE Pipeline](#gate-pipeline)
+3. [Knowledge Base](#knowledge-base)
 
 ## Dataset
 The dataset used in our experiments are open access, computer science articles retrieved from [CORE](http://core.ac.uk) dataset [dump 2016](https://core.ac.uk/services#dataset).
@@ -17,5 +18,8 @@ This is the text mining pipeline used to extract relevant information from the d
 When the pipeline loads successfully, you should see the following sequence of processing resources in the GATE Developer interface:
 
 ![alt text][pipeline]
+
+## Knowledge Base
+The provided knowledge base contains all the extracted entities from our dataset of 100 computer science articles. The semantic triples are expressed using the Resource Description Framework (RDF) syntax.
 
 [pipeline]: https://github.com/SemanticSoftwareLab/Supplements-ESWC2017/blob/master/graphics/pipeline.png "Pipeline processing resources"
